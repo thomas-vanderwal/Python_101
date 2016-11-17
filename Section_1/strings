@@ -1,0 +1,23 @@
+long_string = '''Testing a
+multi line
+string'''
+
+print(long_string)
+
+long_string2 = """Using double quotes
+to span
+new lines"""
+
+print(long_string2)
+
+my_number = 123
+str_function = str(my_number)
+print(str_function)
+
+my_string = 'Thomas'
+print(id(my_string))
+my_string = 'Vander'
+print(id(my_string))
+my_string = my_string + ' Wal'
+print(my_string)
+print(id(my_string))
