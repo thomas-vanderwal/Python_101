@@ -21,3 +21,28 @@ print(id(my_string))
 my_string = my_string + ' Wal'
 print(my_string)
 print(id(my_string))
+
+string_one = 'Use the + operator to'
+string_two = ' concatenate strings'
+
+print(string_one + string_two)
+
+print('String objects can use the upper method.'.upper())
+
+print('Use dir(str_name) to see all string methods')
+print(dir(string_one))
+
+my_string = 'Learning Python!'
+
+print(my_string[0:3])
+print(my_string[1])
+
+#dictionaries
+my_string = "Python is as simple as {0}, {1}, {2}".format("a", "b", "c")
+print(my_string)
+
+my_string = "Python is as simple as {1}, {0}, {2}".format("a", "b", "c")
+print(my_string)
+
+print("%(x)i + %(y)i = %(z)i" % {"x":1, "y":2, "z":3})
+
