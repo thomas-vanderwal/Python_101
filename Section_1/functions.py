@@ -29,3 +29,5 @@ def many(*args, **kwargs):
 
 print(many(1,2,3, name='Thomas', job='Developer'))
 #Note that args are put into a tuple and kwargs are put into a dictionary
+
+
