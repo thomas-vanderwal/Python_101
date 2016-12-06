@@ -19,3 +19,13 @@ def keyword_values(a=1,b=2):
 
 print(keyword_values(4,5))
 print(keyword_values())
+
+#unlimited number of arguments are defined with *args and **kwargs (keyword arguments)
+# Note the args and kwargs names don't matter, what's important is the number of *
+
+def many(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+print(many(1,2,3, name='Thomas', job='Developer'))
+#Note that args are put into a tuple and kwargs are put into a dictionary
